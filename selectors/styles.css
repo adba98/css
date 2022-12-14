@@ -1,0 +1,45 @@
+/* Universal */
+* {
+  background-color: azure;
+}
+
+/* Tag */
+h1 {
+  background-color: aquamarine;
+}
+
+/* Id */
+#title {
+  background-color: cadetblue;
+}
+
+/* Class */
+.title {
+  background-color: cornflowerblue;
+}
+
+/* Attribute */
+[href] {
+  color: red;
+}
+
+[href='https://www.google.com/']
+{
+  color: darkblue;
+}
+
+[href^='color'] {
+  color: green;
+}
+
+[href*='verde '] {
+  color: chartreuse;
+}
+
+[href$='.com'] {
+  color: chartreuse;
+}
+
+[href|='en'] {
+  color: chartreuse;
+}
